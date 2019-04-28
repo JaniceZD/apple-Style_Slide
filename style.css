@@ -1,0 +1,99 @@
+* ,ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444444;
+  background: #efefef;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+
+h1{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom:24px;
+}
+
+#main {
+  margin: auto;
+  text-align: center;
+  width: 920px;
+}
+
+#gallery {
+  border: 1px solid white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 3px #AAAAAA;
+  background: url(./background/panel.jpg) repeat-x bottom center #ffffff;
+  width: 920px;
+  overflow: hidden;
+}
+
+#slides {
+  overflow: hidden;
+  height: 400px;
+  width: 920px;
+}
+
+.slide {
+  float: left;
+}
+
+#menu {
+  height: 45px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+}
+
+li a {
+  display: block;
+  background:url(./background/divider.png) no-repeat right;
+  height: 35px;
+  padding-top: 10px;
+}
+
+li .icon {
+  width: 60px;
+  height: 30px;
+}
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px;
+	background:url(./background/divider.png) no-repeat right;
+}
+
+li.inact:hover {
+  background: url(./background/pic_bg.png) repeat;
+}
+li.act, li.act:hover  {
+  background: url(./background/active_bg.png) no-repeat;
+}
+li.act a {
+  cursor: default;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}

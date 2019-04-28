@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Apple-like Slideshow Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .icon {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+
+    <h1>Apple-like Slideshow Gallery</h1>
+
+    <div id="gallery">
+      <div id="slides">
+        <div class="slide"><img src="./img/iphone_xs__cm637qa5dno2_large.jpg" alt="图片1" width="920" height="400"></div>
+        <div class="slide"><img src="./img/imac__bpep5e0cb4oi_large.jpg" alt="图片2" width="920" height="400"></div>
+        <div class="slide"><img src="./img/ipad_mini_tile__c0jmap32olw2_large.jpg" alt="图片3" width="920" height="400">
+        </div>
+        <div class="slide"><img src="./img/apple_music__gdfamywhn6ye_large.jpg" alt="图片4" width="920" height="400">
+        </div>
+      </div>
+      <div id="menu">
+        <ul>
+          <li class="fbar">&nbsp;</li>
+          <li class="menuItem">
+            <a href="">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-iPhone"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="menuItem">
+            <a href="">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-iMac"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menuItem">
+            <a href="">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-ipad"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menuItem">
+            <a href="">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-Music"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="//at.alicdn.com/t/font_1165421_loeaa1jcu4m.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
