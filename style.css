@@ -52,6 +52,7 @@ h1{
 ul {
   margin: 0px;
   padding: 0px;
+  font-size: 0;
 }
 
 li {
@@ -59,7 +60,8 @@ li {
 	display:inline-block;
 	list-style:none;
 	height:45px;
-	overflow:hidden;
+  overflow:hidden;
+
 }
 
 li a {
